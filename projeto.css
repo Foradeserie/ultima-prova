@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  margin: 0px;
+  background-image: url('3.jpg');
+  color: #fff;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+#menu {
+  position: relative;
+  margin-left: 800px;
+  font-size: 20px;
+}
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+  #modelo {
+    position: relative; 
+    font-size: 50px;
+  }
+
+  #teste2 {
+    background-color: #8E7B57;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 50px; /* Adiciona um espaçamento interno */
+}
+
+#teste2 > div {
+    text-align: center;
+    margin: 50px; /* Ajusta o espaçamento entre os itens */
+    max-width: 250px;
+}
+  
+ 
+  #teste3 {
+    background-color: #746547;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #teste4 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #teste4 > div {
+    flex: 1;
+    text-align: center;
+    margin: 10px 70px; /* Reduz o espaço entre os elementos */
+    max-width: 250px;
+  }
+
+  #veja{
+    justify-content: center;
+    align-items: center;
+  }
+
+  #formulario {
+    background-color: #F47f34;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para alinhar verticalmente */
+    text-align: center; /* Alinhar o conteúdo no centro */
+  }
+
+  #mapa {
+    width: 100%; /* Ocupar toda a largura disponível */
+  }
+  
+  #rodape {
+    background-color: #746447;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #rodape > div {
+    flex: 1;
+    text-align: center;
+    margin: 10px 70px; /* Reduz o espaço entre os elementos */
+    max-width: 250px;
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Adiciona transição suave para a mudança de cor */
+}
+
+ul li a:hover {
+    color: #F47f34; /* Altera a cor para laranja ao passar o mouse */
+}
+
+.texto{
+  color: #fff;
+}
